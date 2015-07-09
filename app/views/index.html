@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+<ul>
+#{list items:models.Picture.findAll(), as:'picture'}
+    <li>${picture.id} <img src="D:/download.jpg" /></li>
+#{/list}
+</ul>
+ 
+#{form @Application.uploadPicture(), enctype:'multipart/form-data'}
+ 
+    <input type="file" name="picture.image" />
+    <input type="submit" name="submit" value="Save" />
+#{/form}
+</body>
+</html>
+

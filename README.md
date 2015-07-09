@@ -160,23 +160,7 @@ that I can see:
     nice.  As a first step, I played around for a while with [Custom Data Binding](http://www.playframework.com/documentation/2.0/JavaForms),
     but could not get it to work correctly for lists of Hobbies.
     
-If you see ways to solve these problems, please feel free to fork this code and implement your changes. 
 
-Screencast
-----------
 
-Click the image below to watch a 28 minute walkthrough of this system. 
-
-*Note that the following screencast documents a previous version of this system which used Twitter Bootstrap 2.3.2 and Play 2.1.  While the templates in the bootstrap3 package
-have been rewritten, the rest of the system remains unchanged.*
-
-[<img src="https://raw.github.com/ics-software-engineering/play-example-form/master/doc/play-example-form-screencast.png" width="400">](http://www.youtube.com/watch?v=247H9NVpMME)
-
-    
-Acknowledgements
-----------------
-
-This example is a descendent of the original [play-form-kludge](https://github.com/philipmjohnson/play-form-kludge/tree/original)
-and [Jason Pearson](https://github.com/kaeawc)'s [very helpful improvements](https://github.com/philipmjohnson/play-form-kludge).
 
     
